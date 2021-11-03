@@ -1,0 +1,19 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+main{
+  display: flex;
+  height: 100vh; /*altura de 100%*/
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /*centraliza o conteudo no ponto zero da tela*/
+  gap: 5vh; /*espaço entre as divs que estao dentro da main*/
+}
+
